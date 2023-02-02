@@ -33,6 +33,12 @@ public class Ruin {
 				}
 
 				System.out.println("Amount you have now: "+startAmount);
+				if (startAmount==winLimit) {
+					System.out.println ("Win");
+				} else {
+					System.out.println("Loss");
+				}
+				System.out.println();
 				
 			}
 			System.out.println();
